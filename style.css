@@ -69,35 +69,14 @@ a {
   left: 50%;
   top: 50%;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 2.5rem;
   color: #ffe6ff;
   text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
     -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
     0 -0.5rem 1rem #ff2483, 0 0.5rem 1rem #ff2483;
   animation: shine 2s forwards, flicker 3s infinite;
 }
-  @media screen {
-    .sign {
-      position: absolute;
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      align-items: center;
-      width: 50%;
-      height: 15%;
-      transform: translate(-50%, -50%);
-      letter-spacing: 1;
-      left: 50%;
-      top: 50%;
-      text-transform: uppercase;
-      font-size: 2.5rem;
-      color: #ffe6ff;
-      text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
-        -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
-        0 -0.5rem 1rem #ff2483, 0 0.5rem 1rem #ff2483;
-      animation: shine 2s forwards, flicker 3s infinite;
-    }
-  }
+
   
   @keyframes blink {
     0%,
